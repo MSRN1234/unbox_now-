@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="col-3 section2">
-          <h5>Drop a message!</h5>
+          <h5>Drop</h5>
           <div>
             <form className="forminput">
               <input type="text" placeholder="Name" />
