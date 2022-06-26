@@ -27,7 +27,6 @@ function LandingPage() {
               <Footer />,
             ]}
           ></Route>
-          <Route path="login" element={<Login />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
