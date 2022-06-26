@@ -3,7 +3,7 @@ import React from "react";
 import "react-dropdown/style.css";
 import { NavDropdown } from "react-bootstrap";
 
-export default function dropdown() {
+export default function Dropdown() {
   return (
     <NavDropdown
       id="dropdown-basic-button"
