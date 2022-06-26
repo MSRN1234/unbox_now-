@@ -7,7 +7,6 @@ import Comrade from "./Comrade";
 import DownSection from "./DownSection";
 import Greenboard from "./Greenboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "../LoginPage/Login";
 
 function LandingPage() {
   return (
