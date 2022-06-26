@@ -1,0 +1,1222 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 992px) {
+  .Box {
+    width: 100%;
+    height: 700px;
+  }
+  .Header {
+    display: flex;
+    background-image: url("./Images/Background.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .common p {
+    position: absolute;
+    margin-left: 5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+  .Image1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    width: 33rem;
+    margin-top: 50px;
+    margin-left: 4rem;
+  }
+  .Image2 {
+    display: none;
+  }
+  .itemsList a {
+    color: black;
+  }
+  .navbar-brand {
+    width: 20%;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .explorebtn {
+    position: absolute;
+    color: white;
+    margin-left: 5rem;
+    width: 15rem;
+    height: 40px;
+    background-color: #225779;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    color: #225779;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .Tagline {
+    font-size: 1rem;
+    color: #225779;
+    font-weight: 600;
+    position: relative;
+  }
+  .formstyle dt {
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+  }
+  .headercontent {
+    margin-top: 30px;
+    margin-bottom: -25px;
+  }
+  .dailogbox {
+    height: 48rem;
+  }
+  .Enquire button {
+    margin-top: 10rem;
+    margin-left: 22rem;
+    border: 3px solid #225779;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #225779;
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+  }
+
+  h1:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #e5e5e5;
+    position: absolute;
+    top: 14%;
+    left: 45px;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #e5e5e5;
+    position: absolute;
+    top: 14%;
+    right: 45px;
+    box-shadow: 0px 2px 3px #e5e5e5;
+    border-bottom-right-radius: 1px;
+  }
+
+  /*  Content Page Style */
+  /*----------------------------------------------------------------*/
+
+  .VideoFrame {
+    width: 100%;
+  }
+  .Exp {
+    width: 55%;
+    height: 8rem;
+    display: flex;
+    margin-left: 22%;
+    margin-top: 30px;
+  }
+  .Exp2 {
+    display: none;
+  }
+  .videoframe {
+    width: 100%;
+    height: 30rem;
+  }
+  .playicon {
+    height: 4%;
+    width: 4%;
+    margin-left: 49%;
+    margin-top: -571px;
+  }
+
+  /*  Section CSS */
+  /*----------------------------------------------------------------*/
+
+  .choose {
+    margin-top: -15px;
+    text-align: center;
+  }
+  .Img1 {
+    width: 55%;
+    height: 6rem;
+  }
+  .Img2 {
+    display: none;
+  }
+
+  .plenty {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .Plenty1 {
+    width: 52%;
+  }
+  .Plenty2 {
+    display: none;
+  }
+
+  .arrangebtn {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 23%;
+    margin-right: 18%;
+  }
+  .arrangebtn button {
+    border: 1px solid #225779;
+    width: 7.6rem;
+    height: 38px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 1px;
+    float: right;
+  }
+
+  .para {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .para {
+    font-size: 1.3rem;
+  }
+
+  .rowsE {
+    margin-top: 20px;
+    background-color: #ddf2ff;
+    margin-left: 18%;
+    margin-right: 13%;
+    width: 65%;
+    height: 25rem;
+  }
+
+  .FastDelivery {
+    padding: 10px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: #225779;
+  }
+  .fastd {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contents h6 {
+    color: #225779;
+    font-weight: 700;
+  }
+  .contents {
+    position: relative;
+    margin-left: 88px;
+    margin-top: -72px;
+  }
+  .VerifiedBrands {
+    padding: 5%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Pfamily {
+    font-size: 13px;
+  }
+
+  .communderline {
+    background-color: #57cc98;
+    width: 40px;
+    height: 2px;
+    margin-top: 10px;
+  }
+
+  .baloon .image1 {
+    width: 183.93px;
+    height: 270.07px;
+    position: absolute;
+    top: 62px;
+    transform: rotate(-5.74deg);
+    margin-left: -366px;
+  }
+
+  .baloon .image2 {
+    width: 115.01px;
+    height: 82.7px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -30px;
+    transform: rotate(7.97deg);
+  }
+
+  .baloon .image3 {
+    width: 230px;
+    height: 157px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 650px;
+  }
+
+  /*----------------------------------------------------------*/
+
+  /* Cart Section CSS */
+
+  .cards {
+    display: flex;
+    margin-left: 12%;
+  }
+  .cardss {
+    display: flex;
+    margin-left: 12%;
+  }
+
+  .cardd {
+    margin-right: 40px;
+    width: 16.2rem;
+    height: 12.5rem;
+  }
+  .cardd img {
+    padding: 1rem;
+    width: 13.6rem;
+    height: 13rem;
+    margin-left: 15px;
+    transform: rotate(0.97deg);
+  }
+  .CartCake {
+    margin-right: 40px;
+    width: 16.2rem;
+    height: 14.5rem;
+  }
+  .CartCake img {
+    padding: 1rem;
+    width: 13.6rem;
+    height: 13rem;
+    margin-left: 15px;
+    transform: rotate(0.97deg);
+  }
+  .dressImage {
+    width: 16.2rem;
+    height: 10.3rem;
+  }
+  .dressImage {
+    margin-right: 40px;
+    height: 161px;
+  }
+  .dressImage img {
+    padding: 5px;
+    width: 100px;
+    height: 151px;
+    margin-left: 78px;
+  }
+  .Cloth {
+    width: 16.2rem;
+    height: 10.3rem;
+  }
+  .Cloth img {
+    margin-top: 5px;
+    width: 140px;
+    height: 151px;
+    margin-left: 58px;
+  }
+
+  .Teddy {
+    margin-right: 40px;
+    width: 16.2rem;
+    height: 10.3rem;
+    margin-top: 25px;
+  }
+  .Teddy img {
+    padding: 7px;
+    width: 140px;
+    height: 151px;
+    margin-left: 68px;
+  }
+
+  .Flower {
+    width: 16.2rem;
+    height: 14.5rem;
+    margin-right: 40px;
+    margin-top: -42px;
+  }
+  .Flower img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+  }
+
+  .Watch {
+    margin-right: 40px;
+    width: 16.2rem;
+    height: 10.3rem;
+    margin-top: 25px;
+  }
+  .Watch img {
+    padding: 10px;
+    width: 110px;
+    height: 161px;
+    margin-left: 80px;
+  }
+
+  .Batman {
+    width: 16.2rem;
+    height: 14.5rem;
+    margin-right: 40px;
+    margin-top: -42px;
+  }
+  .Batman img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+  }
+
+  .explo {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .explo span {
+    position: absolute;
+    margin-top: 2px;
+  }
+  .explo a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /*----------------------------------------------------------------*/
+  /* footers CSS*/
+
+  .footer-section {
+    margin-top: 5%;
+  }
+  .logoF p {
+    margin-left: 3%;
+  }
+  .logoF img {
+    margin-left: 2%;
+    width: 180px;
+  }
+  .list-item {
+    margin-top: 25px;
+    list-style: none;
+  }
+  .section2 h5 {
+    font-size: 17px;
+    color: #225779;
+    font-weight: 700;
+  }
+  .list-item div {
+    color: #000000;
+    font-weight: 600;
+    margin-top: 13px;
+    font-size: 13px;
+  }
+  .forminput input {
+    border: none;
+    width: 19rem;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #225779;
+  }
+  .forminput textarea {
+    border-radius: 5px;
+    margin-top: 18px;
+    border: 2px solid #225779;
+  }
+  .copyright {
+    background-color: #225779;
+    margin-top: 100px;
+  }
+  .copyright p {
+    padding: 10px;
+    width: 100%;
+    margin-left: 30px;
+    color: #ffffff;
+    margin-bottom: 0%;
+    font-size: 15px;
+  }
+  .submitt {
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 20px;
+    box-shadow: 8px 5px 10px #e5e5e5;
+    width: 80px;
+    border-radius: 7px;
+    background-color: #225779;
+  }
+
+  .footer-main {
+    margin-top: 25px;
+  }
+
+  .footerdesign img {
+    width: 200px;
+    height: 210px;
+    margin-left: 100px;
+    margin-bottom: -90px;
+  }
+
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  input textarea {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #ccc;
+  }
+
+  /*---------------------------------------------------------------------*/
+  /* Comrade Section CSS */
+
+  .box-example {
+    text-align: end;
+    margin-right: 45px;
+    font-weight: 600;
+  }
+
+  .box-ex {
+    font-weight: 600;
+    width: 100px;
+    height: 38px;
+    margin-top: 25px;
+    margin-left: 500px;
+    text-decoration: none;
+    color: #225779;
+  }
+
+  .imgN1 {
+    width: 35rem;
+    height: 10rem;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+  .imgN2 {
+    display: none;
+  }
+
+  .downware {
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .comrades img {
+    width: 570px;
+    margin-left: -250px;
+    height: 200px;
+    margin-top: 90px;
+    position: absolute;
+    z-index: 0;
+  }
+  .Upon img {
+    width: 440px;
+    height: 270px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -190px;
+    z-index: 1;
+  }
+
+  .Clon img {
+    width: 145px;
+    height: 197px;
+    margin-left: -280px;
+    margin-top: -82px;
+    z-index: 2;
+    transform: rotateY(3.8deg);
+  }
+  .Singlestar img {
+    width: 48px;
+    height: 47px;
+    position: absolute;
+    margin-left: 16%;
+  }
+
+  .Buttons {
+    margin-top: 21rem;
+  }
+  .Buttons span {
+    background-color: #ddf2ff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: black;
+  }
+
+  /*-------------------------------------------------*/
+
+  /*  DownSection CSS */
+  .Choice {
+    width: 100%;
+    text-align: center;
+  }
+  .ChoiceImg {
+    width: 55%;
+    height: 8rem;
+  }
+  .ChoiceImg2 {
+    display: none;
+  }
+
+  .Downware1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .imgcir3 {
+    width: 209px;
+    height: 209px;
+    background-color: #ddf2ff;
+    padding: 30px;
+    border-radius: 100px;
+  }
+  .imgcir2 {
+    width: 209px;
+    height: 209px;
+    background-color: #c9ffe2;
+    padding: 30px;
+    border-radius: 100px;
+  }
+
+  .imgcir1 {
+    width: 209px;
+    height: 209px;
+    background-color: #ddf2ff;
+    padding: 30px;
+    border-radius: 100px;
+  }
+
+  .text a {
+    text-decoration: none;
+    color: #225779;
+    font-weight: 700;
+  }
+  .text {
+    text-align: center;
+  }
+  /*-------------------------------------------------------------------*/
+  /*    GreenBoard CSS  */
+  .greenBoard {
+    background-image: url("./Images/green board.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin-top: 130px;
+    text-align: center;
+  }
+  .inimg {
+    margin-top: 51px;
+    height: 70px;
+    width: 60%;
+  }
+  .shareus {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  .sharebtn {
+    color: white;
+    border: #225779;
+    font-weight: 500;
+    width: 226px;
+    height: 40px;
+    border-radius: 8px;
+    background: #225779;
+  }
+  .enquirebtn {
+    margin-left: 50px;
+    margin-top: 27px;
+    width: 226px;
+    height: 40px;
+    border-radius: 8px;
+    background: #57cc98;
+    border: 3px solid #225779;
+  }
+
+  /*----------------------------------------------------------*/
+  /*   Common Section CSS  */
+}
+
+/*----------------------------------------------------------------------*/
+/*   Mobile Responsive  */
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .Header {
+    background-image: url("./Images/BG.png");
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .paramain {
+    width: 100%;
+    text-align: center;
+  }
+  .paramain p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+  .center {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  .Image2 {
+    width: 18rem;
+  }
+  .Image1 {
+    display: none;
+  }
+  .itemsList a {
+    color: black;
+  }
+
+  .explorebtn {
+    color: white;
+    width: 15rem;
+    height: 40px;
+    background-color: #225779;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+
+  .Enquire button {
+    margin-top: 1rem;
+    border: 3px solid #225779;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #225779;
+    width: 15rem;
+    height: 2.5rem;
+  }
+
+  .VideoFrame {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .Exp2 {
+    width: 40vh;
+    height: 6rem;
+  }
+  .Exp {
+    display: none;
+  }
+  .videoframe {
+    width: 100vw;
+    height: 10rem;
+  }
+  .playicon {
+    height: 8%;
+    width: 10%;
+    margin-top: -211px;
+  }
+
+  /*  Section CSS */
+  /*----------------------------------------------------------------*/
+
+  .choose {
+    width: 100%;
+    text-align: center;
+  }
+  .Img2 {
+    width: 38vh;
+    height: 6rem;
+  }
+  .Img1 {
+    display: none;
+  }
+  .plenty {
+    width: 100%;
+    text-align: center;
+  }
+  .Plenty2 {
+    width: 42vh;
+    height: 7rem;
+  }
+  .Plenty1 {
+    display: none;
+  }
+
+  .arrangebtn {
+    margin-top: 20px;
+    display: flex;
+    height: 20em;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrangebtn button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 1px solid #225779;
+    width: 10.6rem;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 1px;
+  }
+  .para {
+    margin-top: 20px;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+  .para p:first-of-type {
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+
+  /*----------------------------------------------------------*/
+
+  /* Cart Section CSS */
+  .cartsection {
+    margin-left: 5%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 25px;
+  }
+  .cards {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .cardss {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .cardd {
+    width: 10.2rem;
+    height: 10.5rem;
+    margin-bottom: 5px;
+  }
+  #btnshow {
+    display: none;
+  }
+  .cardd img {
+    padding: 0.5rem;
+    width: 8.6rem;
+    height: 10rem;
+    margin-left: 15px;
+    transform: rotate(0.97deg);
+  }
+  .CartCake {
+    width: 10.2rem;
+    height: 10.5rem;
+    margin-bottom: 5px;
+  }
+  .CartCake img {
+    padding: 0rem;
+    width: 8.6rem;
+    height: 9rem;
+    margin-top: 1rem;
+    margin-left: 15px;
+    transform: rotate(0.97deg);
+  }
+  .dressImage {
+    width: 10.2rem;
+    height: 7rem;
+    margin-bottom: 5px;
+  }
+
+  .dressImage img {
+    padding: 5px;
+    width: 7rem;
+    height: 7rem;
+    margin-left: 30px;
+  }
+  .Cloth {
+    width: 10.2rem;
+    height: 7rem;
+  }
+  .Cloth img {
+    padding: 2px;
+    width: 7rem;
+    height: 10rem;
+    margin-left: 30px;
+  }
+
+  .Teddy {
+    width: 10.2rem;
+    height: 7rem;
+    margin-bottom: 10px;
+  }
+  .Teddy img {
+    margin-top: -0.5rem;
+    padding: 10px;
+    width: 7rem;
+    height: 10rem;
+    margin-left: 30px;
+  }
+
+  .Flower {
+    width: 10.2rem;
+    height: 10.6rem;
+    margin-bottom: 10px;
+  }
+  .Flower img {
+    margin-top: 1rem;
+    width: 8.6rem;
+    height: 8rem;
+    margin-left: 15px;
+  }
+
+  .Watch {
+    width: 10.2rem;
+    height: 7rem;
+    margin-bottom: 10px;
+  }
+  .Watch img {
+    margin-top: -0.5rem;
+    padding: 15px;
+    width: 6rem;
+    height: 8rem;
+    margin-left: 30px;
+  }
+
+  .Batman {
+    width: 10.2rem;
+    height: 10.5rem;
+    margin-bottom: 10px;
+  }
+  .Batman img {
+    margin-top: 1rem;
+    width: 8.6rem;
+    height: 9rem;
+    margin-left: 15px;
+  }
+  .explo {
+    width: 100%;
+    text-align: center;
+  }
+  .explo span {
+    position: absolute;
+    margin-top: 2px;
+  }
+  .explo a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  /*--------------------------------------------------*/
+  /* Footer CSS   */
+
+  #Logo {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .logoF p {
+    font-size: 1rem;
+  }
+  .logoF img {
+    width: 40vw;
+  }
+
+  #MsgSection {
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .forminput textarea {
+    border-radius: 5px;
+    margin-top: 18px;
+    border: 2px solid #225779;
+  }
+  .copyright {
+    background-color: #225779;
+    margin-top: 100px;
+  }
+  .copyright {
+    width: 100%;
+  }
+  .copyright p {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0%;
+    font-size: 15px;
+  }
+  .submitt button {
+    margin-top: 20px;
+    box-shadow: 8px 5px 10px #e5e5e5;
+    width: 10rem;
+    margin-left: 4.5rem;
+    border-radius: 7px;
+    background-color: #225779;
+  }
+
+  .forminput input {
+    border: none;
+    width: 19rem;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #225779;
+  }
+
+  .section2 h5 {
+    font-size: 1.3rem;
+    color: #225779;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  input textarea {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #ccc;
+  }
+
+  #section1 {
+    display: grid;
+    margin-left: 2rem;
+  }
+  #section2 {
+    display: grid;
+    margin-left: 4rem;
+  }
+  #section3 {
+    display: grid;
+    margin-left: 4rem;
+  }
+  .list-item1 {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+  }
+  .list-item2 {
+    margin-bottom: 6rem;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+  }
+  .list-item3 {
+    margin-bottom: 2.8rem;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+  }
+  /*---------------------------------------------*/
+  /*  Comrade Section CSS */
+
+  .box-example {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 600;
+    font-size: 10px;
+  }
+
+  .box-ex {
+    font-weight: 700;
+    width: 100px;
+    height: 38px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #225779;
+  }
+
+  .imgN1 {
+    display: none;
+  }
+  .imgN2 {
+    width: 36vh;
+    height: 11rem;
+  }
+  .downware {
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #comrades {
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+    width: 100%;
+    text-align: center;
+  }
+  #paragraph {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  .comrades img {
+    width: 25rem;
+    height: 16rem;
+    margin-top: 90px;
+    position: absolute;
+    z-index: 0;
+  }
+  .Upon img {
+    margin-left: -11rem;
+    width: 22rem;
+    height: 19rem;
+    margin-top: 65px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .Clon img {
+    width: 90px;
+    height: 110px;
+    margin-left: -220px;
+    margin-top: -9px;
+    z-index: 2;
+    transform: rotate(15.8deg);
+  }
+  .Singlestar img {
+    width: 48px;
+    height: 47px;
+    margin-left: 60%;
+  }
+
+  .Buttons {
+    display: none;
+  }
+
+  /*-------------------------------------------------------------------*/
+  /*    GreenBoard CSS  */
+  .greenBoard {
+    background-image: url("./Images/green board_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .inimg {
+    display: none;
+  }
+  .shareus {
+    font-weight: 500;
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 370px;
+    word-spacing: 1em;
+  }
+  .btngroup {
+    width: 100%;
+    text-align: center;
+  }
+  .sharebtn {
+    margin-top: 520px;
+    color: white;
+    border: #225779;
+    font-weight: 500;
+    width: 226px;
+    height: 40px;
+    border-radius: 8px;
+    background: #225779;
+  }
+  .enquirebtn {
+    margin-top: 20px;
+    width: 226px;
+    height: 40px;
+    border-radius: 8px;
+    background: #57cc98;
+    border: 3px solid #225779;
+  }
+
+  /*-------------------------------------------------------------------------*/
+  /*   DownSection CSS  */
+
+  .Choice {
+    margin-top: 25rem;
+    width: 100%;
+    text-align: center;
+  }
+  .ChoiceImg {
+    display: none;
+  }
+  .ChoiceImg2 {
+    width: 30vh;
+    height: 10rem;
+  }
+
+  .Downware1 {
+    display: block;
+    text-align: center;
+  }
+
+  .imgcir3 {
+    width: 209px;
+    height: 209px;
+    background-color: #ddf2ff;
+    padding: 50px;
+    border-radius: 100px;
+  }
+  .imgcir2 {
+    width: 209px;
+    height: 209px;
+    background-color: #c9ffe2;
+    padding: 50px;
+    border-radius: 100px;
+  }
+
+  .imgcir1 {
+    width: 209px;
+    height: 209px;
+    background-color: #ddf2ff;
+    padding: 50px;
+    border-radius: 100px;
+  }
+
+  .text a {
+    text-decoration: none;
+    color: #225779;
+    font-weight: 700;
+  }
+  .text {
+    text-align: center;
+  }
+}

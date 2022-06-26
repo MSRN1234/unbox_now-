@@ -1,41 +1,54 @@
-import React from "react";
-import "./Landing.css";
-import Logo from "./Image/Logo.png";
-//import { Link } from 'react-router-dom';
-import Dropdown from "./Dropdown.js";
-export default function navbar() {
-  return (
-    <>
-      <div className="commn">
-        <div className="header">
-          <div className="logo arrange-left width-25">
-            <div>
-              <img
-                src={Logo}
-                height="77"
-                alt="Logo"
-                width="179"
-                margin-top="10"
-              />
-            </div>
-          </div>
-          <div className="navbar arrange-left navbar-50">
-            <ul className="effects">
-              <li className="HomeAbout">Home</li>
+import Dropdown from "./Dropdown";
+import App2 from "./exa";
+import Logo from "./Images/Logo.png";
 
-              <li>
-                <Dropdown />
+export default function Navbar() {
+  return (
+    <div>
+      <nav className="navbar navbar-expand-lg">
+        <div className="container">
+          <div className="navbar-brand">
+            <img src={Logo} alt="Logo" width="160" height="100" />
+          </div>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav m-auto mb-1 mb-lg-0 itemsList">
+              <li className="nav-item ">
+                <a
+                  className="nav-link active me-5"
+                  aria-current="page"
+                  href="#"
+                >
+                  Home
+                </a>
               </li>
 
-              <li className="HomeAbout">About</li>
+              <li className="nav-item  me-5">
+                <Dropdown />
+              </li>
+              <li className="nav-item">
+                <a className="nav-link">About</a>
+              </li>
             </ul>
-          </div>
-          <div className="status arrange-left width-26">
-            <span className="bi bi-search"></span>
-            <button className="btn-infobtn">Log-In</button>
+            <div className="d-flex">
+              <span className="bi bi-search m-3"></span>
+              <span>
+                <App2 />
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-    </>
+      </nav>
+    </div>
   );
 }

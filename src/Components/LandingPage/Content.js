@@ -1,39 +1,20 @@
 import React from "react";
-import "./Landing.css";
-import contentLogo from "./Image/contentLogo.png";
-import Rectangle from "./Image/Rectangle.png";
-import Rectangle2 from "./Image/Rectangle2.png";
-import Enquire from "../LoginPage/Enquire";
+import "./Header.css";
+import Experience from "./Images/Gifting Exp.png";
+import videoframe from "./Images/video frame.png";
+import playbutton from "./Images/playicon.png";
+import Exp from "./Images/exp works_mob.png";
 
-export default function content() {
+export default function Content() {
   return (
-    <div className="Middware">
-      <div className="contentLogo">
-        <img src={contentLogo} alt="contentLogo" height={152} width={498} />
-      </div>
-
-      <div className="box">
-        <h6>
-          It is always a right reason to gift someone!We help you
-          <br /> Create a truly memorable gifting experience!What are you
-          <br />
-          Waiting for?
-        </h6>
-      </div>
-      <div className="content d-flex">
-        <button className="explorebtn">
-          Explore
-          <span className="explorebtn1 bi bi-arrow-right-short"></span>
-        </button>
-        <div className="customizebtn">
-          <Enquire />
+    <div>
+      <div className="VideoFrame">
+        <img src={Experience} alt="Experience" className="Exp" />
+        <img src={Exp} alt="Experience" className="Exp2" />
+        <div>
+          <img src={videoframe} alt="videoframe" className="videoframe" />
+          <img src={playbutton} alt="playicon" className="playicon" />
         </div>
-      </div>
-      <div className="Rectangle">
-        <img src={Rectangle} alt="Rectangle" />
-      </div>
-      <div className="Designed">
-        <img src={Rectangle2} alt="Rectangle" />
       </div>
     </div>
   );
