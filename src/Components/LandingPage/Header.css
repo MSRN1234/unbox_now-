@@ -1141,7 +1141,7 @@ body {
     font-weight: 500;
     position: absolute;
     font-size: 1rem;
-    margin-top: 370px;
+    margin-top: 300px;
     word-spacing: 1em;
   }
   .btngroup {
@@ -1149,7 +1149,7 @@ body {
     text-align: center;
   }
   .sharebtn {
-    margin-top: 520px;
+    margin-top: 430px;
     color: white;
     border: #225779;
     font-weight: 500;
