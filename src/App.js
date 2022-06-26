@@ -7,6 +7,7 @@ import Footer from "./Components/LandingPage/Footer";
 import Comrade from "./Components/LandingPage/Comrade";
 import DownSection from "./Components/LandingPage/DownSection";
 import Greenboard from "./Components/LandingPage/Greenboard";
+// import { useState } from "react";
 
 function App() {
   return (

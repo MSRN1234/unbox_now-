@@ -1,0 +1,638 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: left;
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Middware {
+  margin-left: 125px;
+  padding: 5px;
+}
+
+.box {
+  margin-top: 48px;
+  margin-bottom: 3.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.contentLogo {
+  width: 100%;
+  height: auto;
+  margin-top: 180px;
+  margin-left: -17px;
+}
+
+.explorebtn {
+  color: white;
+  margin-right: 25px;
+  width: 226px;
+  height: 40px;
+  background-color: #225779;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.Rectangle img {
+  position: absolute;
+  margin-top: 223px;
+  width: 100px;
+  height: 140px;
+}
+
+.Designed img {
+  position: absolute;
+  margin-top: 221px;
+  width: 250px;
+  height: 100px;
+  margin-left: 74%;
+}
+
+.commn {
+  margin-top: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.arrange-left {
+  float: left;
+}
+
+.navbar ul {
+  display: flex;
+  text-align: center;
+  margin-left: 140px;
+  list-style: none;
+}
+
+.width-26 {
+  margin-top: 10px;
+  width: 25%;
+}
+
+.status {
+  display: flex;
+}
+
+.navbar-50 {
+  width: 50%;
+}
+
+.width-25 {
+  margin-top: -9px;
+  width: 25%;
+}
+
+.effects li {
+  margin-right: 70px;
+  font-size: 16px;
+}
+
+.status span:first-of-type {
+  margin-top: 10px;
+  margin-left: 170px;
+  margin-right: 20px;
+}
+
+.btn-infobtn {
+  color: white;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #225779;
+  background-color: #225779;
+}
+
+.explorebtn1 {
+  position: absolute;
+  margin-top: 2px;
+}
+
+.categories {
+  margin-bottom: 2px;
+  line-height: 0.5;
+  padding: 0px;
+}
+
+.HomeAbout {
+  margin-top: 7px;
+}
+
+#dropdown-menu {
+  padding-left: 14px;
+  display: grid;
+  border: 0px;
+}
+
+/* new css for merged app */
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.status span:first-of-type {
+  margin-right: 20px;
+}
+
+.btnj {
+  border: 1px solid #225779;
+  background-color: #225779;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.affect {
+  height: 150px;
+  width: 498px;
+  margin-top: 50px;
+}
+.text p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2%;
+  margin-top: 23px;
+}
+.buttonS {
+  margin-left: 19px;
+  margin-top: 5%;
+}
+.buttonS button:first-of-type {
+  height: 35px;
+  margin-right: 25px;
+  width: 225px;
+  background-color: #225779;
+  border-radius: 5px;
+  border: none;
+}
+.second2 {
+  border-radius: 5px;
+  border: 2px solid #225779;
+  width: 225px;
+  height: 35px;
+}
+.buttonS span {
+  position: absolute;
+  margin-top: 2px;
+}
+.Exp {
+  width: 828px;
+  height: 88px;
+  margin-left: 23%;
+  margin-top: 17%;
+}
+.videoframe {
+  width: 100%;
+  height: 400px;
+  /* margin-left: 40px; */
+}
+.presentation {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 21%;
+  margin-top: -40px;
+}
+.Heart img {
+  position: absolute;
+  width: 45.8px;
+  height: 45px;
+  margin-left: 69%;
+  margin-top: 12px;
+}
+.playicon {
+  width: 4%;
+  height: 4%;
+  margin-left: 49%;
+  margin-top: -481px;
+}
+
+.rowsE {
+  margin-top: 20px;
+}
+.rowsE1 {
+  background-color: #ddf2ff;
+  margin-left: 13%;
+  margin-right: 3%;
+  width: 75%;
+  height: 450px;
+  padding-left: 20%;
+}
+.choose {
+  width: 650px;
+  height: 80px;
+  margin-left: 28%;
+  margin-bottom: 25px;
+}
+.rowsE div p {
+  margin-left: 15%;
+  font-weight: 400;
+}
+.book {
+  margin-left: 15%;
+  font-weight: 700;
+  color: #225779;
+}
+.book span {
+  position: absolute;
+  margin-top: 2px;
+}
+
+.fastd {
+  margin-left: -85%;
+}
+.supprt {
+  /* position: absolute; */
+  margin-left: 25%;
+}
+.fastd img {
+  width: 70px;
+  height: 70px;
+  border-radius: 45px;
+  padding: 15px;
+  background-color: #225779;
+}
+.supprt img {
+  width: 70px;
+  height: 70px;
+  border-radius: 45px;
+  padding: 15px;
+  background-color: #225779;
+}
+.Pfamily {
+  font-size: 13px;
+}
+
+.fastd h6 {
+  color: #225779;
+  margin-top: -15px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+.supprt h6 {
+  color: #225779;
+  margin-top: -15px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+.communderline {
+  background-color: #57cc98;
+  width: 40px;
+  height: 2px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.categories {
+  margin-bottom: 2px;
+  line-height: 0.5;
+  padding: 0px;
+}
+
+#dropdown-menu {
+  padding-left: 14px;
+  display: grid;
+  border: 0px;
+}
+
+.btnlink {
+  margin-top: 30px;
+  margin-left: 49%;
+  text-decoration: none;
+  font-style: bold;
+  color: #225779;
+  border: none;
+}
+
+/* ramesh uppula css */
+
+.box-example {
+  text-align: end;
+  margin-right: 45px;
+  font-weight: 600;
+}
+
+.box-ex {
+  font-weight: 600;
+  width: 100px;
+  height: 38px;
+  margin-top: 25px;
+  margin-left: 500px;
+  text-decoration: none;
+  color: #225779;
+}
+
+.whodo img {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.downware {
+  margin-top: 35px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.comrades img {
+  width: 570px;
+  margin-left: -250px;
+  height: 200px;
+  margin-top: 90px;
+  position: absolute;
+  z-index: 0;
+}
+.Upon img {
+  width: 440px;
+  height: 270px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -190px;
+  z-index: 1;
+}
+
+.Clon img {
+  width: 145px;
+  height: 197px;
+  margin-left: -280px;
+  margin-top: -82px;
+  z-index: 2;
+  transform: rotateY(3.8deg);
+}
+.Singlestar img {
+  width: 48px;
+  height: 47px;
+  position: absolute;
+  margin-left: 16%;
+}
+
+/* footers css from om */
+
+.footer-section {
+  margin-top: 5%;
+}
+.logoF p {
+  margin-left: 3%;
+}
+.logoF img {
+  margin-left: 2%;
+  width: 180px;
+}
+.list-item {
+  margin-top: 25px;
+  list-style: none;
+}
+.section2 h5 {
+  font-size: 17px;
+  color: #225779;
+  font-weight: 700;
+}
+.list-item div {
+  color: #000000;
+  font-weight: 600;
+  margin-top: 13px;
+  font-size: 13px;
+}
+.forminput input {
+  border: none;
+  width: 250px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #225779;
+}
+.forminput textarea {
+  border-radius: 5px;
+  margin-top: 18px;
+  border: 2px solid #225779;
+}
+.copyright {
+  background-color: #225779;
+  margin-top: 100px;
+}
+.copyright p {
+  padding: 10px;
+  width: 100%;
+  margin-left: 30px;
+  color: #ffffff;
+  margin-bottom: 0%;
+  font-size: 15px;
+}
+.submitt {
+  position: absolute;
+  margin-left: 85px;
+  margin-top: 20px;
+  box-shadow: 8px 5px 10px #e5e5e5;
+  width: 80px;
+  border-radius: 7px;
+  background-color: #225779;
+}
+
+.footer-main {
+  margin-top: 25px;
+}
+
+.footerdesign img {
+  width: 200px;
+  height: 210px;
+  margin-left: 100px;
+  margin-bottom: -90px;
+}
+/* ramesh changes */
+
+.GiftBox img {
+  position: absolute;
+  width: 139px;
+  height: 149px;
+  margin-left: 81%;
+  margin-top: -18px;
+}
+
+.spring img {
+  position: absolute;
+  width: 150px;
+  height: 240px;
+  margin-top: 240px;
+  margin-left: 60px;
+}
+
+.downware1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.box1 {
+  display: flex;
+  flex-grow: 1;
+}
+.box2 {
+  text-align: center;
+  text-decoration: solid;
+  display: flex;
+}
+.box3 {
+  display: flex;
+}
+.box4 {
+  display: flex;
+}
+
+.circle1 {
+  width: 209px;
+  height: 209px;
+  margin-top: 10px;
+  border-radius: 100px;
+  border-color: #000000;
+  background-color: #ddf2ff;
+  margin-left: 270px;
+  display: flex;
+}
+.circle2 {
+  width: 209px;
+  height: 209px;
+  margin-top: 12px;
+  border-radius: 100px;
+  border-color: #000000;
+  background-color: #c9ffe2;
+  margin-left: 183px;
+  display: flex;
+}
+.circle3 {
+  width: 209px;
+  height: 209px;
+  margin-top: 15px;
+  border-radius: 100px;
+  border-color: #000000;
+  background-color: #ddf2ff;
+  margin-left: 215px;
+  display: flex;
+}
+
+.imgcir3 {
+  height: 142px;
+  width: 117px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.imgcir2 {
+  height: 170px;
+  width: 110px;
+  margin-left: 23%;
+  margin-top: 10px;
+}
+.imgcir1 {
+  height: 110px;
+  width: 124px;
+  margin-left: 22%;
+  margin-top: 23%;
+}
+
+.crcl1text {
+  text-align: center;
+  font-weight: 490;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+.crcl2text {
+  text-align: center;
+  font-weight: 490;
+  margin-left: 260px;
+  margin-top: 10px;
+}
+.crcl3text {
+  text-align: center;
+  font-weight: 490;
+  margin-top: 10px;
+  margin-left: 260px;
+}
+
+/* Akash CSS */
+
+.baloon .image1 {
+  width: 183.93px;
+  height: 270.07px;
+  position: absolute;
+  top: 62px;
+  transform: rotate(-5.74deg);
+  margin-left: -366px;
+}
+
+.baloon .image2 {
+  width: 115.01px;
+  height: 82.7px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -30px;
+  transform: rotate(7.97deg);
+}
+
+.baloon .image3 {
+  width: 230px;
+  height: 157px;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 650px;
+}
+/*  ramesh green bloard added */
+
+.greenBoard {
+  background-image: url("./Image/green board.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1495px;
+  height: 331px;
+  margin-top: 10px;
+}
+.inimg {
+  margin-top: 51px;
+  height: 70px;
+  width: 1041px;
+  margin-left: 240px;
+}
+.shareus {
+  text-align: center;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 505px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  height: 47px;
+  width: 495px;
+}
+.sharebtn {
+  color: white;
+  border: #225779;
+  font-weight: 500;
+  margin-left: 500px;
+  width: 226px;
+  height: 40px;
+  border-radius: 8px;
+  background: #225779;
+}
+.enquirebtn {
+  margin-left: 50px;
+  margin-top: 27px;
+  width: 226px;
+  height: 40px;
+  border-radius: 8px;
+  background: #57cc98;
+  border: 3px solid #225779;
+}
